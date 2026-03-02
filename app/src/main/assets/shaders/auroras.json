@@ -1,0 +1,16 @@
+{
+  "name": "Northern Lights",
+  "description": "Realistic Aurora Borealis simulation.",
+  "variables": {
+    "speed": {
+      "type": "float",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10.0,
+      "description": "Simulation speed"
+    }
+  },
+  "shader_path": "assets/shaders/auroras.glsl",
+  "tags": ["resource_intensive"],
+  "credit": "https://www.shadertoy.com/view/XtGGRt"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "Domain Warp Noise",
+  "description": "A shifting, domain-warped noise pattern that cycles over time.",
+  "shader_path": "assets/shaders/value_noise.glsl",
+  "tags": ["abstract", "procedural", "noise"],
+  "variables": {
+    "speed": {
+      "type": "float",
+      "default": 0.2,
+      "min": 0.01,
+      "max": 1.0,
+      "description": "Speed of the time evolution"
+    },
+    "duration": {
+      "type": "float",
+      "default": 4.0,
+      "min": 1.0,
+      "max": 10.0,
+      "description": "Duration of each noise cycle"
+    },
+    "color1": {
+      "type": "color",
+      "default": "#000E52",
+      "description": "Background / Deep Color"
+    },
+    "color2": {
+      "type": "color",
+      "default": "#58F044",
+      "description": "Primary Color"
+    },
+    "color3": {
+      "type": "color",
+      "default": "#C6039E",
+      "description": "Secondary Color"
+    },
+    "color4": {
+      "type": "color",
+      "default": "#0000B3",
+      "description": "Highlight Color"
+    }
+  },
+    "credit": "https://www.shadertoy.com/view/3XGBWh"
+}

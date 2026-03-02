@@ -1,0 +1,23 @@
+{
+  "name": "Water Turbulence",
+  "description": "A deep blue water turbulence effect. Original by David Hoskins.",
+  "shader_path": "assets/shaders/water_turbulence.glsl",
+  "variables": {
+    "speed": {
+      "type": "float",
+      "default": 0.5,
+      "min": 0.01,
+      "max": 0.6,
+      "description": "Flow speed"
+    },
+    "intensity": {
+      "type": "float",
+      "default": 0.005,
+      "min": 0.001,
+      "max": 0.02,
+      "description": "Ripple intensity"
+    }
+  },
+  "credit": "https://www.shadertoy.com/view/MdlXz8"
+}
+

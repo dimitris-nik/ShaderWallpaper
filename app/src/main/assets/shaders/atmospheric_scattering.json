@@ -1,0 +1,23 @@
+{
+  "name": "Atmospheric Scattering",
+  "description": "Realistic atmospheric scattering rendering.",
+  "shader_path": "assets/shaders/atmospheric_scattering.glsl",
+  "tags": ["resource_intensive"],
+  "variables": {
+    "speed": {
+      "type": "float",
+      "default": 1.0,
+      "min": 0.0,
+      "max": 5.0,
+      "description": "Rotation speed"
+    },
+    "scale": {
+      "type": "float",
+      "default": 1.0,
+      "min": 0.5,
+      "max": 2.0,
+      "description": "Planet size"
+    }
+  },
+  "credit": "https://www.shadertoy.com/view/lslXDr"
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Neon Pulse",
+  "description": "A neon pulsating fractal pattern.",
+  "variables": {
+    "speed": {
+      "type": "float",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 5.0,
+      "description": "Animation speed"
+    }
+  },
+  "shader_path": "assets/shaders/neon_pulse.glsl",
+  "credit" : "https://www.shadertoy.com/view/mtyGWy"
+}
+

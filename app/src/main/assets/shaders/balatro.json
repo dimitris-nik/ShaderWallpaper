@@ -1,0 +1,54 @@
+{
+  "name": "Balatro Swirl",
+  "description": "Psychedelic swirling card background from Balatro.",
+  "shader_path": "assets/shaders/balatro.glsl",
+  "variables": {
+    "speed_val": {
+      "type": "float",
+      "default": 2.0,
+      "min": 0.0,
+      "max": 10.0,
+      "description": "Swirl animation speed"
+    },
+    "rotation_speed": {
+      "type": "float",
+      "default": -2.0,
+      "min": -10.0,
+      "max": 10.0,
+      "description": "Global rotation speed"
+    },
+    "spin_amount": {
+         "type": "float",
+         "default": 0.25,
+         "min": 0.0,
+         "max": 1.0,
+         "description": "Distortion amount"
+     },
+     "contrast": {
+          "type": "float",
+          "default": 3.5,
+          "min": 1.0,
+          "max": 5.0,
+          "description": "Color contrast"
+      },
+    "pixel_filter": {
+       "type": "float",
+       "default": 745.0,
+       "min": 100.0,
+       "max": 2000.0,
+       "description": "Pixelation amount"
+    },
+    "primary_color": {
+      "type": "color",
+      "default": "#DE443B",
+      "description": "Main swirl color (Red)"
+    },
+    "secondary_color": {
+      "type": "color",
+      "default": "#006BB4",
+      "description": "Secondary swirl color (Blue)"
+    }
+  },
+    "credit": "https://www.shadertoy.com/view/XXtBRr"
+}
+

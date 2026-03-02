@@ -1,0 +1,37 @@
+{
+  "name": "Dancing Disks",
+  "description": "A playful grid of animated disks.",
+  "shader_path": "assets/shaders/dancing_disks.glsl",
+  "variables": {
+    "speed_val": {
+      "type": "float",
+      "default": 1.0,
+      "min": 0.01,
+      "max": 1.5,
+      "description": "Animation speed"
+    },
+    "scale": {
+      "type": "float",
+      "default": 2.5,
+      "min": 1,
+      "max": 5.5,
+      "description": "Grid scale"
+    },
+    "col1": {
+        "type": "color",
+        "default": "#3778B2",
+        "description": "Primary Color (Blue-ish)"
+    },
+    "col2": {
+        "type": "color",
+        "default": "#FF544C",
+        "description": "Secondary Color (Red-ish)"
+    },
+    "col3": {
+        "type": "color",
+        "default": "#DDE83F",
+        "description": "Accent Color (Yellow-ish)"
+    }
+  }
+}
+

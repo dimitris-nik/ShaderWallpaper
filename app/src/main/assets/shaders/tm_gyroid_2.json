@@ -1,0 +1,15 @@
+{
+  "name": "TM Gyroid 2",
+  "description": "Travel through colorful 3D Structures.",
+  "shader_path": "assets/shaders/tm_gyroid_2.glsl",
+  "tags": ["resource_intensive"],
+  "variables": {
+    "speed": {
+      "type": "float",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 5.0,
+      "description": "Animation speed"
+    }
+  }
+}

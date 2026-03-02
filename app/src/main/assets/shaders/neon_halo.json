@@ -1,0 +1,38 @@
+{
+  "name": "Neon Halo",
+  "description": "A stylish, glowing ring animation.",
+  "shader_path": "assets/shaders/neon_halo.glsl",
+  "variables": {
+    "speed": {
+      "type": "float",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 5.0,
+      "description": "Rotation speed"
+    },
+    "scale": {
+      "type": "float",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 2.0,
+      "description": "Zoom scale (larger = closer)"
+    },
+    "color1": {
+      "type": "color",
+      "default": "#9C43FE",
+      "description": "Primary Color"
+    },
+    "color2": {
+      "type": "color",
+      "default": "#4CC2E9",
+      "description": "Secondary Color"
+    },
+     "color3": {
+       "type": "color",
+       "default": "#101499",
+       "description": "Deep Accent Color"
+     }
+  }
+}
+
+

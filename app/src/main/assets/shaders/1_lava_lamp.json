@@ -1,0 +1,62 @@
+{
+  "name": "Lava Lamp",
+  "description": "Smooth and mesmerizing gradient that flows like a lava lamp.",
+  "variables": {
+    "film_grain": {
+      "type": "float",
+      "default": 0.2,
+      "min": 0.0,
+      "max": 0.5,
+      "description": "Intensity of the film grain effect."
+    },
+    "speed": {
+      "type": "float",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 10.0,
+      "description": "Speed of the lava lamp animation."
+    },
+    "color1": {
+      "type": "color",
+      "default": "#FFBA89",
+      "description": "Amber Yellow"
+    },
+    "color2": {
+      "type": "color",
+      "default": "#3162EE",
+      "description": "Deep Blue"
+    },
+    "color3": {
+      "type": "color",
+      "default": "#F69292",
+      "description": "Pink"
+    },
+    "color4": {
+      "type": "color",
+      "default": "#59f3e4",
+      "description": "Cyan"
+    },
+    "color5": {
+      "type": "color",
+      "default": "#6931F5",
+      "description": "Purple Haze"
+    },
+    "color6": {
+      "type": "color",
+      "default": "#202A32",
+      "description": "Swampy Black"
+    },
+    "color7": {
+      "type": "color",
+      "default": "#E93334",
+      "description": "Persimmon Orange"
+    },
+    "color8": {
+      "type": "color",
+      "default": "#E9A04B",
+      "description": "Dark Amber"
+    }
+  },
+  "shader_path": "assets/shaders/1_lava_lamp.glsl",
+    "credit": "https://www.shadertoy.com/view/DdcfzH"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "Bubble Rings",
+  "description": "A glowing, 4D projected torus using raymarching.",
+  "shader_path": "assets/shaders/hyper_torus.glsl",
+  "tags": ["resource_intensive"],
+  "variables": {
+    "speed": {
+      "type": "float",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 5.0,
+      "description": "Rotation speed"
+    },
+    "scale": {
+      "type": "float",
+      "default": 2.5,
+      "min": 1.0,
+      "max": 4.0,
+      "description": "Zoom / Scale of the object"
+    },
+    "density": {
+      "type": "float",
+      "default": 82.0,
+      "min": 20.0,
+      "max": 120.0,
+      "description": "Glow density (Higher = smoother but heavier)"
+    }
+  },
+    "credit": "https://www.shadertoy.com/view/WdB3Dw"
+}

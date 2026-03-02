@@ -1,0 +1,15 @@
+{
+  "name": "Star Nest",
+  "description": "A 3D volumetric space travel shader.",
+  "variables": {
+    "speed": {
+      "type": "float",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 5.0,
+      "description": "Flight speed"
+    }
+  },
+  "shader_path": "assets/shaders/star_nest.glsl",
+  "tags": ["resource_intensive"]
+}

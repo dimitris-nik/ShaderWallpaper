@@ -1,0 +1,17 @@
+{
+  "name": "Cloudy Sky",
+  "description": "Realistic procedural clouds.",
+  "shader_path": "assets/shaders/cloudy_sky.glsl",
+  "tags": ["resource_intensive"],
+  "variables": {
+    "speed": {
+      "type": "float",
+      "default": 1.0,
+      "min": 0.1,
+      "max": 5.0,
+      "description": "Cloud movement speed"
+    }
+  },
+  "credit": "https://www.shadertoy.com/view/4tdSWr"
+}
+
