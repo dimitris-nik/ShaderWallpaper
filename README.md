@@ -1,6 +1,6 @@
 # Shader Wallpaper 🎨
 
-An Android Live Wallpaper app that brings mesmerizing, real-time shader graphics right to your home screen. Browse, customize, and apply stunning shader-based wallpapers with complete control over how they look and perform.
+An Android Live Wallpaper app that brings mesmerizing, real-time shader graphics right to your home screen. Browse, customize, and apply stunning shader-based wallpapers with complete control over how they look.
 
 Here are some of the shader wallpapers in action! 
 
@@ -17,14 +17,14 @@ Here are some of the shader wallpapers in action!
 * **Live Gallery View:** Browse through the collection of available wallpapers with real-time, live previews right in the gallery.
 * **Built-in Shader Editor:** Tap on any wallpaper to enter the editor, where you can easily tweak custom variables to fit your style.
 * **Variable Customization:** Adjust parameters specific to each shader, such as animation speed, scale, density, and more.
-* **Color Personalization:** Don't like the default look? Easily customize the color palettes used by the wallpapers to match your phone's theme.
+* **Color Personalization:** Don't like the default look? Easily customize the color palettes used by the wallpapers to match your style.
 * **Always Unique**: Because the underlying shader code relies on a continuously running time variable, your wallpaper is constantly evolving. What you see is slightly different every time you unlock your device.
 
 ## Performance & Battery 
 
 Because this app renders live shader code, battery consumption is directly tied to the complexity of the active wallpaper.
 
-To help you manage battery life, highly complex or demanding shaders are explicitly marked with a **`resource_intensive`** tag in the gallery. If you are concerned about battery drain, we recommend sticking to lighter shaders or reducing your phone's background activity.
+To help you manage battery life, demanding shaders are explicitly marked with a **`resource_intensive`** tag in the gallery. If you are concerned about battery drain, I recommend sticking to lighter shaders.
 
 ## Credits & Acknowledgments 
 
@@ -32,7 +32,15 @@ The beautiful core shader art featured in this app originates from the incredibl
 
 Links to the original creators can be found directly inside the app for every respective wallpaper.
 
-## App Interface 📱
+## Download
+
+You can grab the v1.0 release here:
+**[Download ShaderWallpaper 1.0](https://github.com/dimitris-nik/ShaderWallpaper/releases/tag/1.0)**
+
+> **👋 Quick Disclaimer:** *This is my very first app! While I'm super excited to share it with you, please expect a few bugs or quirky behaviors along the way. I'm still learning, so your patience and feedback are hugely appreciated!*
+
+
+## Interface
 
 | Gallery View | Shader Editor | Customization |
 | :---: | :---: | :---: |
